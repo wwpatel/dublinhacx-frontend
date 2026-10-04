@@ -22,3 +22,13 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Env, build output, Playwright
+.env
+.env.*
+!.env.example
+playwright-report
+test-results
+
+# Design export screenshots are generated, never committed
+design-export/screens/
